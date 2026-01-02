@@ -1,0 +1,1 @@
+const { Sequelize } = require('sequelize');\nconst sequelize = new Sequelize(process.env.DATABASE_URL);\nmodule.exports = sequelize;

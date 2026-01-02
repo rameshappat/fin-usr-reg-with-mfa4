@@ -1,0 +1,1 @@
+const db = require('../models');\nexports.createUser = async (userData) => {\n  // Validate userData\n  // Save to DB\n  // Return user data\n};\nexports.verifyUser = async (userData) => {\n  // Call external KYC/AML service\n  // Process response\n  // Return verification status\n};

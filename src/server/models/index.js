@@ -1,0 +1,1 @@
+const UserModel = require('./userModel');\nmodule.exports = {\n  UserModel\n};
